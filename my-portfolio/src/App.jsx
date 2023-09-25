@@ -6,9 +6,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="warning">
-      <Header/>
-      <Project/>
-      <Footer/>
+      <Header name=" Emmanuel Appiagyei" />
+      <Project />
+      <Footer />
     </div>
   );
 }
