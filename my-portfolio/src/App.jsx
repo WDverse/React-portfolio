@@ -1,15 +1,39 @@
-import './App.css';
+import { useState } from 'react';
 import Header from './components/Header';
+import Navigation from './components/Navigation';
 import Page from './components/Page';
-import Project from './components/Project';
 import Footer from './components/Footer';
 
 function App() {
+  const [pages] = useState([
+    {
+      name: "about-me"
+    },
+    {
+      name: "portfolio"
+    },
+    {
+      name: "contact"
+    },
+    {
+      name: "resume"
+    }
+  ]);
+
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
   return (
-    <div className="warning">
-      <Header name=" Emmanuel Appiagyei" />
-      <Page />
-      <Project title="Portfolio" />
+    <div>
+      <Header name=" Emmanuel Appiagyei">
+        <Navigation
+          pages={pages}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
+        ></Navigation>
+      </Header>
+      <main>
+        <Page currentPage={currentPage}></Page>
+      </main>
       <Footer />
     </div>
   );

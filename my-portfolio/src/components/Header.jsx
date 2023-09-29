@@ -1,5 +1,4 @@
 import Card from 'react-bootstrap/Card';
-import Navigation from './Navigation';
 
 function Header(props) {
     return (
@@ -8,7 +7,6 @@ function Header(props) {
                 <h1>{props.name}</h1>
                 </Card.Header>
             <Card.Body>
-                <Navigation />
             </Card.Body>
         </Card>
     );

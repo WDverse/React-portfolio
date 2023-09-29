@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 function Project(props) {
   return (
     <Row xs={1} md={2} className="g-4">
-        <h2>{props.title}</h2>
+      <h2>{props.title}</h2>
       {Array.from({ length: 6 }).map((_, idx) => (
         <Col key={idx}>
           <Card>
@@ -13,9 +13,7 @@ function Project(props) {
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                This is a description of a project
               </Card.Text>
             </Card.Body>
           </Card>

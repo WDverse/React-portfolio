@@ -1,7 +1,7 @@
 function AboutMe() {
     return (
         <>
-            <div name="about-me">
+            <div>
                 <h2>About Me</h2>
                 <img alt="Portrait of Emmanuel Appiagyei"></img>
                 <div>
