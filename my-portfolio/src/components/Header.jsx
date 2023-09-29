@@ -5,9 +5,10 @@ function Header(props) {
         <Card>
             <Card.Header>
                 <h1>{props.name}</h1>
-                </Card.Header>
-            <Card.Body>
-            </Card.Body>
+                <Card.Body>
+                {props.children}
+                </Card.Body>
+            </Card.Header>
         </Card>
     );
 }

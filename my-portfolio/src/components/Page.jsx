@@ -6,10 +6,10 @@ import Resume from "./Resume";
 function Page() {
     return (
         <>
-            <AboutMe />
-            <Project title="Portfolio"/>
-            <Contact />
-            <Resume />
+            <AboutMe  name= "about-me" />
+            <Project name= "portfolio" title="Portfolio"/>
+            <Contact  name= "contact"/>
+            <Resume name= "resume"/>
         </>
     )
 }

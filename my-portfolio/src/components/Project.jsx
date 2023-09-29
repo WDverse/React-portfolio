@@ -13,7 +13,7 @@ function Project(props) {
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
-                This is a description of a project
+                This is a description of the project
               </Card.Text>
             </Card.Body>
           </Card>
