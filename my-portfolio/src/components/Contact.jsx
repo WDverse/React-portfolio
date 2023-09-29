@@ -1,9 +1,10 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-function Contact() {
+function Contact(props) {
     return (
         <>
+            <h2>{props.title}</h2>
             <Form>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Name:</Form.Label>

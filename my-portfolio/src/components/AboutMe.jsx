@@ -1,8 +1,8 @@
-function AboutMe() {
+function AboutMe(props) {
     return (
         <>
             <div>
-                <h2>About Me</h2>
+                <h2>{props.title}</h2>
                 <img alt="Portrait of Emmanuel Appiagyei"></img>
                 <div>
                 <div>
