@@ -14,7 +14,7 @@ function Contact() {
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                     <Form.Label>Message:</Form.Label>
-                    <Form.Control as="textarea" placeholder="Leave your message" rows={3} />
+                    <Form.Control as="textarea" placeholder="Leave a message" rows={3} />
                 </Form.Group>
             </Form>
         </>
