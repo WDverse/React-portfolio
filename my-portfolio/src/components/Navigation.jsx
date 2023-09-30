@@ -11,7 +11,7 @@ function Navigation() {
             <Nav.Item>
                 <h2 className='profile-name'>Emmanuel Appiagyei</h2>
             </Nav.Item>
-            <Nav.Item>
+            <Nav.Item >
                 <Nav.Link href="#about-me">About Me</Nav.Link>
             </Nav.Item>
             <Nav.Item>

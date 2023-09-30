@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 
 function Contact(props) {
     return (
-        <>
+        <div style={{backgroundColor:"#087F8C"}}>
             <h2>{props.title}</h2>
             <Form>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -18,9 +18,9 @@ function Contact(props) {
                     <Form.Label>Message:</Form.Label>
                     <Form.Control as="textarea" rows={3} placeholder='Enter message'required/>
                 </Form.Group>
-                <Button as="input" type="submit" value="Submit" />{' '}
+                <Button variant ="dark" as="input" type="submit" value="Submit" />{' '}
             </Form>
-        </>
+        </div>
     )
 };
 

@@ -1,7 +1,7 @@
 
 function Resume(props) {
     return (
-        <>
+        <div style={{backgroundColor:"#087F8C"}}>
 
             <div>
                 <h2>{props.title}</h2>
@@ -28,7 +28,7 @@ function Resume(props) {
                 </ul>
             </div>
 
-        </>
+        </div>
     )
 }
 
