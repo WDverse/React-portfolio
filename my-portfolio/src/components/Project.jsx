@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import "../styles/Project.css"
 import Button from 'react-bootstrap/Button';
 import workDay from '../assets/images/workday.png'
 import quiz from '../assets/images/quiz.png'
@@ -13,12 +14,12 @@ function Project(props) {
 
     <Row xs={1} md={3} className="g-4">
       <h1 style={{ width: "100%" }}>Portfolio</h1>
-      <Col>
-        <Card>
-          <Card.Img variant="top" src={workDay} height={"270%"} />
+      <Col >
+        <Card className= "img">
+          <Card.Img  variant="top" src={workDay} height={"270%"} />
           <Card.Body style={{backgroundColor:"#087F8C"}}>
-            <Card.Title>Workday Scheduler</Card.Title>
-            <Card.Text>
+            <Card.Title className="text">Workday Scheduler</Card.Title>
+            <Card.Text className="text">
               Project Description
 
             </Card.Text>
@@ -28,11 +29,11 @@ function Project(props) {
       </Col>
 
       <Col>
-        <Card>
+        <Card className= "img">
           <Card.Img variant="top" src={quiz} />
           <Card.Body style={{backgroundColor:"#087F8C"}}>
-            <Card.Title>Code Quiz Challenge</Card.Title>
-            <Card.Text>
+            <Card.Title className="text">Code Quiz Challenge</Card.Title>
+            <Card.Text className="text">
               Project Description
 
             </Card.Text>
@@ -42,11 +43,11 @@ function Project(props) {
       </Col>
 
       <Col>
-        <Card>
+        <Card className= "img">
           <Card.Img variant="top" src={tourist} height={"270%"} />
           <Card.Body style={{backgroundColor:"#087F8C"}}>
-            <Card.Title>Tourist Trap</Card.Title>
-            <Card.Text>
+            <Card.Title className="text">Tourist Trap</Card.Title>
+            <Card.Text className="text">
               Project Description
 
             </Card.Text>
@@ -56,11 +57,11 @@ function Project(props) {
       </Col>
 
       <Col>
-        <Card>
+        <Card className= "img">
           <Card.Img variant="top" src={noteTaker} height={"270"} />
           <Card.Body style={{backgroundColor:"#087F8C"}}>
-            <Card.Title>Note Taker</Card.Title>
-            <Card.Text>
+            <Card.Title className="text">Note Taker</Card.Title>
+            <Card.Text className="text">
               Project Description
 
             </Card.Text>
@@ -70,11 +71,11 @@ function Project(props) {
       </Col>
 
       <Col>
-        <Card>
+        <Card className= "img">
           <Card.Img variant="top" src="https://www.celoxis.com/cassets/img/pmc/project-management.png" height={"270"} />
           <Card.Body style={{backgroundColor:"#087F8C"}}>
-            <Card.Title>Weather Dashboard</Card.Title>
-            <Card.Text>
+            <Card.Title className="text">Weather Dashboard</Card.Title>
+            <Card.Text className="text">
               Project Description
 
             </Card.Text>
@@ -84,11 +85,11 @@ function Project(props) {
       </Col>
 
       <Col>
-        <Card>
+        <Card className= "img">
           <Card.Img variant="top" src={text} height={"270"} />
           <Card.Body style={{backgroundColor:"#087F8C"}}>
-            <Card.Title>Text Editor</Card.Title>
-            <Card.Text>
+            <Card.Title className="text">Text Editor</Card.Title>
+            <Card.Text className="text">
               Project Description
             </Card.Text>
             <Button variant ="dark" href="https://edityourtexthere-d4cbb3200683.herokuapp.com">Live Link</Button> <Button variant ="dark" href="https://github.com/WDverse/Text-Editor">GitHub Repo</Button>{' '}

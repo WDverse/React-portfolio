@@ -3,9 +3,9 @@ import Button from 'react-bootstrap/Button';
 
 function Contact(props) {
     return (
-        <div style={{backgroundColor:"#087F8C"}}>
+        <div class="text" style={{backgroundColor:"#087F8C"}}>
             <h2>{props.title}</h2>
-            <Form>
+            <Form style={{width:"30%"}}>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Name:</Form.Label>
                     <Form.Control type="text" placeholder='Enter name'required/>

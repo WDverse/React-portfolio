@@ -1,11 +1,11 @@
 
 function Resume(props) {
     return (
-        <div style={{backgroundColor:"#087F8C"}}>
+        <div class="text" style={{backgroundColor:"#087F8C"}}>
 
             <div>
                 <h2>{props.title}</h2>
-                <p>Download my <a href="https://drive.google.com/file/d/1SzImUxrvGugYeV063b9DL5cFN82B-f6N/view?usp=share_link" download="">resume</a></p>
+                <p>Download my <a class="text" href="https://drive.google.com/file/d/1SzImUxrvGugYeV063b9DL5cFN82B-f6N/view?usp=share_link" download="">resume</a></p>
                 <h3>Frontend Proficiencies</h3>
                 <ul>
                     <li>HTML</li>

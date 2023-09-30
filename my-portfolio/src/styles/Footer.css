@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.bi {
+  fill: black;
+}
+.bi:hover {
+  fill: white;
+}
