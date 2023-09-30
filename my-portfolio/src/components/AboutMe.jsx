@@ -3,8 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 
-
-
 function AboutMe(props) {
     return (
         <>

@@ -8,9 +8,6 @@ import tourist from '../assets/images/tourist.png'
 import noteTaker from '../assets/images/note.png'
 import text from '../assets/images/text.png'
 
-
-
-
 function Project(props) {
   return (
 
