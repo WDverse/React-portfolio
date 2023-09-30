@@ -10,10 +10,10 @@ function Navigation() {
     return (
         <Nav variant="underline" className="justify-content-end" activeKey="/home">
             <Nav.Item >
-                <Nav.Link className='link'href="#about-me">About Me</Nav.Link>
+                <Nav.Link className='link' href="#about-me">About Me</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link className='link'href="#portfolio">Portfolio</Nav.Link>
+                <Nav.Link className='link' href="#portfolio">Portfolio</Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link className='link' href="#contact">Contact</Nav.Link>

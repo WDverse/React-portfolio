@@ -7,7 +7,7 @@ function Header(props) {
         <Card>
             <Card.Header style={{backgroundColor:"#087F8C"}}>
                 <Card.Body>
-                <h2 className='header'>Emmanuel Appiagyei</h2>
+                <h1 className='header'>Emmanuel Appiagyei</h1>
                 {props.children}
                 </Card.Body>
             </Card.Header>

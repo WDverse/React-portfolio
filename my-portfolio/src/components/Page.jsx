@@ -7,7 +7,7 @@ function Page() {
     return (
         <>
             <AboutMe name="about-me" title="About Me" />
-            <Project name="portfolio" title="Portfolio" />
+            <Project name="portfolio" title="Portfolio"/>
             <Contact name="contact" title="Contact" />
             <Resume name="resume" title="Resume" />
         </>

@@ -1,3 +1,15 @@
-.text{
-    color: white!important;
+.text {
+  color: white !important;
+  font-family: 'AR One Sans', sans-serif;
+}
+
+form {
+  margin-left: 20px;
+  font-family: 'AR One Sans', sans-serif;
+}
+
+.contact{
+    margin-left: 20px;
+    font-family: 'AR One Sans', sans-serif;
+    font-weight: bold;
 }

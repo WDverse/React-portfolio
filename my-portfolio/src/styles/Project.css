@@ -1,7 +1,25 @@
-.text{
-    color: white!important;
+.portfolio-title {
+  font-weight: bold;
+}
+h2 {
+  font-family: "AR One Sans", sans-serif;
 }
 
-card{
-    margin-left: 10px;
+.text {
+  color: white !important;
+  font-family: "AR One Sans", sans-serif;
+}
+
+.row {
+  margin: auto !important;
+  background-color: #f0f7f4;
+}
+
+.img {
+  margin: 10px !important;
+  transition: all 1s;
+}
+
+.img:hover {
+  transform: scale(1.1);
 }

@@ -31,7 +31,7 @@ function App() {
           currentPage={currentPage}
         ></Navigation>
       </Header>
-      <main style={{backgroundColor:"#F0F7F4"}}>
+      <main>
         <Page currentPage={currentPage}></Page>
       </main>
       <Footer />

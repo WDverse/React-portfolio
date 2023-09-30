@@ -1,3 +1,12 @@
 .text{
     color: white!important;
 }
+
+
+.resume{
+    margin-left: 20px!important;
+}
+
+.resume-title{
+    font-weight: bold;
+}

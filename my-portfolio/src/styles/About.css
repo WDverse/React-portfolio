@@ -1,0 +1,23 @@
+body {
+  margin: 0px !important;
+}
+
+.about {
+  margin: auto;
+}
+.about-me {
+  margin-left: 7.5%;
+  margin-bottom: 10px;
+  line-height: 100px;
+  font-family: 'AR One Sans', sans-serif;
+  font-weight: bold;
+}
+
+.about-body {
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 50px;
+  font-family: 'AR One Sans', sans-serif;
+  font-weight: bolder;
+  line-height: 30px;
+}

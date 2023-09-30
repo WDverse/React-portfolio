@@ -12,11 +12,11 @@ import text from '../assets/images/text.png'
 function Project(props) {
   return (
 
-    <Row xs={1} md={3} className="g-4">
-      <h1 style={{ width: "100%" }}>Portfolio</h1>
+    <Row xs={1} sm = {2} md={2} lg={3} className="g-4">
+      <h2 className="portfolio-title"style={{ width: "100%" }}>Portfolio</h2>
       <Col >
         <Card className= "img">
-          <Card.Img  variant="top" src={workDay} height={"270%"} />
+          <Card.Img  variant="top" src={workDay} height={"270"} />
           <Card.Body style={{backgroundColor:"#087F8C"}}>
             <Card.Title className="text">Workday Scheduler</Card.Title>
             <Card.Text className="text">
@@ -30,7 +30,7 @@ function Project(props) {
 
       <Col>
         <Card className= "img">
-          <Card.Img variant="top" src={quiz} />
+          <Card.Img variant="top" src={quiz} height={"270"}/>
           <Card.Body style={{backgroundColor:"#087F8C"}}>
             <Card.Title className="text">Code Quiz Challenge</Card.Title>
             <Card.Text className="text">
@@ -44,7 +44,7 @@ function Project(props) {
 
       <Col>
         <Card className= "img">
-          <Card.Img variant="top" src={tourist} height={"270%"} />
+          <Card.Img variant="top" src={tourist} height={"270"} />
           <Card.Body style={{backgroundColor:"#087F8C"}}>
             <Card.Title className="text">Tourist Trap</Card.Title>
             <Card.Text className="text">
