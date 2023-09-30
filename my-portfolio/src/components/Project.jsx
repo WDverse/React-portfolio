@@ -12,87 +12,87 @@ import text from '../assets/images/text.png'
 function Project(props) {
   return (
 
-    <Row xs={1} sm = {2} md={2} lg={3} className="g-4">
-      <h2 className="portfolio-title"style={{ width: "100%" }}>Portfolio</h2>
+    <Row xs={1} sm={2} md={2} lg={3} className="g-4">
+      <h2 className="portfolio-title" style={{ width: "100%" }}>Portfolio</h2>
       <Col >
-        <Card className= "img">
-          <Card.Img  variant="top" src={workDay} height={"270"} />
-          <Card.Body style={{backgroundColor:"#087F8C"}}>
+        <Card className="img">
+          <Card.Img variant="top" src={workDay} height={"270"} />
+          <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="text">Workday Scheduler</Card.Title>
             <Card.Text className="text">
-              Project Description
+              HTML/CSS/jQuery
 
             </Card.Text>
-            <Button variant ="dark" href="https://wdverse.github.io/Work-Day-Scheduler/">Live Link</Button> <Button variant ="dark" href="https://github.com/WDverse/Work-Day-Scheduler">GitHub Repo</Button>{' '}
+            <Button variant="dark" href="https://wdverse.github.io/Work-Day-Scheduler/">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Work-Day-Scheduler">GitHub Repo</Button>{' '}
           </Card.Body>
         </Card>
       </Col>
 
       <Col>
-        <Card className= "img">
-          <Card.Img variant="top" src={quiz} height={"270"}/>
-          <Card.Body style={{backgroundColor:"#087F8C"}}>
+        <Card className="img">
+          <Card.Img variant="top" src={quiz} height={"270"} />
+          <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="text">Code Quiz Challenge</Card.Title>
             <Card.Text className="text">
-              Project Description
+              HTML/CSS/JavaScript
 
             </Card.Text>
-            <Button variant ="dark" href="https://wdverse.github.io/Code-Quiz-Challenge/">Live Link</Button> <Button  variant ="dark" href="https://github.com/WDverse/Code-Quiz-Challenge">GitHub Repo</Button>{' '}
+            <Button variant="dark" href="https://wdverse.github.io/Code-Quiz-Challenge/">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Code-Quiz-Challenge">GitHub Repo</Button>{' '}
           </Card.Body>
         </Card>
       </Col>
 
       <Col>
-        <Card className= "img">
+        <Card className="img">
           <Card.Img variant="top" src={tourist} height={"270"} />
-          <Card.Body style={{backgroundColor:"#087F8C"}}>
+          <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="text">Tourist Trap</Card.Title>
             <Card.Text className="text">
-              Project Description
+              HTML/CSS/Bootsrap/JavaScript
 
             </Card.Text>
-            <Button variant ="dark" href="https://wdverse.github.io/Tourist-trap/">Live Link</Button> <Button variant ="dark" href="https://github.com/WDverse/Tourist-trap">GitHub Repo</Button>{' '}
+            <Button variant="dark" href="https://wdverse.github.io/Tourist-trap/">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Tourist-trap">GitHub Repo</Button>{' '}
           </Card.Body>
         </Card>
       </Col>
 
       <Col>
-        <Card className= "img">
+        <Card className="img">
           <Card.Img variant="top" src={noteTaker} height={"270"} />
-          <Card.Body style={{backgroundColor:"#087F8C"}}>
+          <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="text">Note Taker</Card.Title>
             <Card.Text className="text">
-              Project Description
+              HTML/CSS/JavaScript/Node.js/Express.js
 
             </Card.Text>
-            <Button variant ="dark" href="https://my-quick-note-bc48bbc27ea1.herokuapp.com">Live Link</Button> <Button variant ="dark" href="https://github.com/WDverse/Note-taker">GitHub Repo</Button>{' '}
+            <Button variant="dark" href="https://my-quick-note-bc48bbc27ea1.herokuapp.com">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Note-taker">GitHub Repo</Button>{' '}
           </Card.Body>
         </Card>
       </Col>
 
       <Col>
-        <Card className= "img">
+        <Card className="img">
           <Card.Img variant="top" src="https://www.celoxis.com/cassets/img/pmc/project-management.png" height={"270"} />
-          <Card.Body style={{backgroundColor:"#087F8C"}}>
+          <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="text">Weather Dashboard</Card.Title>
             <Card.Text className="text">
               Project Description
 
             </Card.Text>
-            <Button  variant ="dark" href="#">Live Link</Button> <Button variant ="dark" type="submit">GitHub Repo</Button>{' '}
+            <Button variant="dark" href="#">Live Link</Button> <Button variant="dark" type="submit">GitHub Repo</Button>{' '}
           </Card.Body>
         </Card>
       </Col>
 
       <Col>
-        <Card className= "img">
+        <Card className="img">
           <Card.Img variant="top" src={text} height={"270"} />
-          <Card.Body style={{backgroundColor:"#087F8C"}}>
+          <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="text">Text Editor</Card.Title>
             <Card.Text className="text">
-              Project Description
+              HTML/CSS/JavaScript/Node.js/Express.js
             </Card.Text>
-            <Button variant ="dark" href="https://edityourtexthere-d4cbb3200683.herokuapp.com">Live Link</Button> <Button variant ="dark" href="https://github.com/WDverse/Text-Editor">GitHub Repo</Button>{' '}
+            <Button variant="dark" href="https://edityourtexthere-d4cbb3200683.herokuapp.com">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Text-Editor">GitHub Repo</Button>{' '}
           </Card.Body>
         </Card>
       </Col>
