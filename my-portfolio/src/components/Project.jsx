@@ -8,6 +8,7 @@ import quiz from '../assets/images/quiz.png'
 import tourist from '../assets/images/tourist.png'
 import noteTaker from '../assets/images/note.png'
 import text from '../assets/images/text.png'
+import weather from '../assets/images/weather.png'
 
 function Project(props) {
   return (
@@ -72,14 +73,14 @@ function Project(props) {
 
       <Col>
         <Card className="img">
-          <Card.Img variant="top" src="https://www.celoxis.com/cassets/img/pmc/project-management.png" height={"270"} />
+          <Card.Img variant="top" src={weather}height={"270"} />
           <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="text">Weather Dashboard</Card.Title>
             <Card.Text className="text">
               Project Description
 
             </Card.Text>
-            <Button variant="dark" href="#">Live Link</Button> <Button variant="dark" type="submit">GitHub Repo</Button>{' '}
+            <Button variant="dark" href="https://wdverse.github.io/Weather-Dashboard/">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Weather-Dashboard">GitHub Repo</Button>{' '}
           </Card.Body>
         </Card>
       </Col>
