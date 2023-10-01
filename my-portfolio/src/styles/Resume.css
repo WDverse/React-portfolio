@@ -1,12 +1,19 @@
-.text{
-    color: white!important;
+.text {
+  color: white !important;
 }
 
-
-.resume{
-    margin-left: 20px!important;
+.resume {
+  margin-left: 20px !important;
 }
 
-.resume-title{
-    font-weight: bold;
+.resume-title {
+  font-weight: bold;
+}
+
+.resume-link:hover {
+  color: black !important;
+}
+
+.resume-link:active {
+  color: rgb(44, 43, 43) !important;
 }

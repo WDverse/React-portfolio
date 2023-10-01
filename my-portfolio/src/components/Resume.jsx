@@ -1,11 +1,11 @@
 import '../styles/Resume.css';
 function Resume(props) {
     return (
-        <div className="text" style={{backgroundColor:"#087F8C"}}>
+        <div className="text" style={{ backgroundColor: "#087F8C" }}>
 
             <div className="resume">
                 <h2 className='resume-title' >{props.title}</h2>
-                <p>Download my <a class="text" href="https://drive.google.com/file/d/1SzImUxrvGugYeV063b9DL5cFN82B-f6N/view?usp=share_link" download="">resume</a></p>
+                <p>Download my <a className="text resume-link" href="https://drive.google.com/file/d/1SzImUxrvGugYeV063b9DL5cFN82B-f6N/view?usp=share_link" download="">resume</a></p>
                 <h3>Frontend Proficiencies</h3>
                 <ul>
                     <li>HTML</li>
