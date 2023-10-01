@@ -22,7 +22,6 @@ function Project(props) {
             <Card.Title className="text">Workday Scheduler</Card.Title>
             <Card.Text className="text">
               HTML/CSS/jQuery
-
             </Card.Text>
             <Button variant="dark" href="https://wdverse.github.io/Work-Day-Scheduler/">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Work-Day-Scheduler">GitHub Repo</Button>{' '}
           </Card.Body>
@@ -36,7 +35,6 @@ function Project(props) {
             <Card.Title className="text">Code Quiz Challenge</Card.Title>
             <Card.Text className="text">
               HTML/CSS/JavaScript
-
             </Card.Text>
             <Button variant="dark" href="https://wdverse.github.io/Code-Quiz-Challenge/">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Code-Quiz-Challenge">GitHub Repo</Button>{' '}
           </Card.Body>
@@ -50,7 +48,6 @@ function Project(props) {
             <Card.Title className="text">Tourist Trap</Card.Title>
             <Card.Text className="text">
               HTML/CSS/Bootsrap/JavaScript
-
             </Card.Text>
             <Button variant="dark" href="https://wdverse.github.io/Tourist-trap/">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Tourist-trap">GitHub Repo</Button>{' '}
           </Card.Body>
@@ -64,7 +61,6 @@ function Project(props) {
             <Card.Title className="text">Note Taker</Card.Title>
             <Card.Text className="text">
               HTML/CSS/JavaScript/Node.js/Express.js
-
             </Card.Text>
             <Button variant="dark" href="https://my-quick-note-bc48bbc27ea1.herokuapp.com">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Note-taker">GitHub Repo</Button>{' '}
           </Card.Body>
@@ -73,12 +69,11 @@ function Project(props) {
 
       <Col>
         <Card className="img">
-          <Card.Img variant="top" src={weather}height={"270"} />
+          <Card.Img variant="top" src={weather} height={"270"} />
           <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="text">Weather Dashboard</Card.Title>
             <Card.Text className="text">
-              Project Description
-
+              HTML/CSS/Bootstrap/JavaScript
             </Card.Text>
             <Button variant="dark" href="https://wdverse.github.io/Weather-Dashboard/">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Weather-Dashboard">GitHub Repo</Button>{' '}
           </Card.Body>

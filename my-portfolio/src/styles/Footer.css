@@ -11,3 +11,7 @@ footer {
 .bi:hover {
   fill: rgb(90, 90, 90);
 }
+
+.bi:active {
+  fill: rgb(118, 117, 117);
+}
