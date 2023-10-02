@@ -1,7 +1,7 @@
 export default function PageContent(props) {
     return (
         <div>
-            {props.children};
+            {props.children}
         </div>
     )
 }

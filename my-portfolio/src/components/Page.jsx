@@ -22,17 +22,9 @@ function Page({ currentPage }) {
 
     return (
         <>
-
             <PageContent>
-
                 {renderPage(currentPage)}
-
             </PageContent>
-            {/* <AboutMe name="about-me" title="About Me" />
-            <Project name="portfolio" title="Portfolio" />
-            <Contact name="contact" title="Contact" />
-            <Resume name="resume" title="Resume" /> */}
-
         </>
     )
 }
