@@ -2,14 +2,37 @@ import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import Project from "./Project";
 import Resume from "./Resume";
+import PageContent from "./PageContent";
 
-function Page() {
+function Page({ currentPage }) {
+
+    const renderPage = (currentPage) => {
+        switch (currentPage) {
+            case "about":
+                return <AboutMe />
+            case "portfolio":
+                return <Project />
+            case "contact":
+                return <Contact />
+            case "resume":
+                return <Resume />
+            default:
+        }
+    }
+
     return (
         <>
-            <AboutMe name="about-me" title="About Me" />
-            <Project name="portfolio" title="Portfolio"/>
+
+            <PageContent>
+
+                {renderPage(currentPage)}
+
+            </PageContent>
+            {/* <AboutMe name="about-me" title="About Me" />
+            <Project name="portfolio" title="Portfolio" />
             <Contact name="contact" title="Contact" />
-            <Resume name="resume" title="Resume" />
+            <Resume name="resume" title="Resume" /> */}
+
         </>
     )
 }

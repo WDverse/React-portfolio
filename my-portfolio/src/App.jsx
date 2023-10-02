@@ -6,21 +6,16 @@ import Footer from './components/Footer';
 
 function App() {
   const [pages] = useState([
-    {
-      name: "about me"
-    },
-    {
-      name: "portfolio"
-    },
-    {
-      name: "contact"
-    },
-    {
-      name: "resume"
-    }
+     "about"
+    ,
+     "portfolio"
+    ,
+     "contact"
+    ,
+     "resume"
   ]);
 
-  const [currentPage, setCurrentPage] = useState(pages[0]);
+  const [currentPage, setCurrentPage] = useState(pages[3]);
 
   return (
     <div>
