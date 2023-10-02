@@ -5,14 +5,14 @@ h2 {
   font-family: "AR One Sans", sans-serif;
 }
 
-.text {
+.project-text {
   color: white !important;
   font-family: "AR One Sans", sans-serif;
 }
 
 .row {
   margin: auto !important;
-  background-color: #f0f7f4;
+  background-color: white;
 }
 
 .img {

@@ -1,5 +1,5 @@
 .text {
-  color: white !important;
+  color: black !important;
 }
 
 .resume {
@@ -8,12 +8,14 @@
 
 .resume-title {
   font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .resume-link:hover {
-  color: black !important;
+  color: #087f8c !important;
 }
 
 .resume-link:active {
-  color: rgb(44, 43, 43) !important;
+  color: #05b9cd !important;
 }

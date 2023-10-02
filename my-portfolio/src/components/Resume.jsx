@@ -1,7 +1,7 @@
 import '../styles/Resume.css';
 function Resume(props) {
     return (
-        <div className="text" style={{ backgroundColor: "#087F8C" }}>
+        <div className="text" style={{ backgroundColor:  "white" }}>
 
             <div className="resume">
                 <h2 className='resume-title' >Resume</h2>

@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 function AboutMe(props) {
     return (
         <>
-            <div className="about" style={{ backgroundColor: "#F0F7F4" }}>
+            <div className="about" style={{ backgroundColor: "white" }}>
                 <h2 className='about-me'>About Me</h2>
                 <Container>
                     <Row>
