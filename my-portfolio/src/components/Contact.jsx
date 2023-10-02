@@ -5,7 +5,7 @@ import '../styles/Contact.css';
 function Contact(props) {
     return (
         <div class="text" style={{backgroundColor:"#087F8C"}}>
-            <h2 className='contact'>{props.title}</h2>
+            <h2 className='contact'>Contact</h2>
             <Form style={{width:"30%"}}>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Name:</Form.Label>

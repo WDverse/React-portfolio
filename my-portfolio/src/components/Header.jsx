@@ -1,6 +1,5 @@
 import Card from 'react-bootstrap/Card';
 import '../styles/Header.css'
-// import header from '../assets/images/header.jpg'
 
 function Header(props) {
     return (

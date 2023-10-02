@@ -8,7 +8,7 @@ function AboutMe(props) {
     return (
         <>
             <div className="about" style={{ backgroundColor: "#F0F7F4" }}>
-                <h2 className='about-me'>{props.title}</h2>
+                <h2 className='about-me'>About Me</h2>
                 <Container>
                     <Row>
                         <Col xs={6} md={4}>
