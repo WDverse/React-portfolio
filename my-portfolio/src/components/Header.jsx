@@ -3,9 +3,9 @@ import '../styles/Header.css'
 
 function Header(props) {
     return (
-        <Card>
+        <Card >
             <Card.Header style={{backgroundColor:"#087F8C"}}>
-                <Card.Body>
+                <Card.Body className='header-size' >
                 <h1 className='header'>Emmanuel Appiagyei</h1>
                 {props.children}
                 </Card.Body>
