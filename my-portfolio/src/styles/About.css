@@ -13,9 +13,6 @@ body {
   font-weight: bold;
 }
 .typewriter h1 {
-  /* display: flex !important;
-  flex-wrap: wrap !important;
-  flex-direction: row !important; */
   width: fit-content;
   margin-top: 1000px;
   padding-left: 400px;
@@ -52,7 +49,7 @@ body {
   .typewriter h1 {
     font-size: 20.3px;
     width: 100%;
-    white-space: wrap;
+    white-space: nowrap;
     padding-left: 0px;
   }
 }
