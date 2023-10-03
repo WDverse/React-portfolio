@@ -21,7 +21,7 @@ function Project(props) {
           <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="project-text">Workday Scheduler</Card.Title>
             <Card.Text className="project-text">
-              HTML/CSS/jQuery
+              A simple calendar app built with HTML, CSS & jQuery
             </Card.Text>
             <Button variant="dark" href="https://wdverse.github.io/Work-Day-Scheduler/">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Work-Day-Scheduler">GitHub Repo</Button>{' '}
           </Card.Body>
@@ -34,7 +34,7 @@ function Project(props) {
           <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="project-text">Code Quiz Challenge</Card.Title>
             <Card.Text className="project-text">
-              HTML/CSS/JavaScript
+              Code quiz app built with HTML, CSS & JavaScript
             </Card.Text>
             <Button variant="dark" href="https://wdverse.github.io/Code-Quiz-Challenge/">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Code-Quiz-Challenge">GitHub Repo</Button>{' '}
           </Card.Body>
@@ -47,7 +47,7 @@ function Project(props) {
           <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="project-text">Tourist Trap</Card.Title>
             <Card.Text className="project-text">
-              HTML/CSS/Bootsrap/JavaScript
+              Hotel guide for tourists using server-side APIs
             </Card.Text>
             <Button variant="dark" href="https://wdverse.github.io/Tourist-trap/">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Tourist-trap">GitHub Repo</Button>{' '}
           </Card.Body>
@@ -60,7 +60,7 @@ function Project(props) {
           <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="project-text">Note Taker</Card.Title>
             <Card.Text className="project-text">
-              HTML/CSS/JavaScript/Node.js/Express.js
+              Simple note pad using Express.js and Node.js
             </Card.Text>
             <Button variant="dark" href="https://my-quick-note-bc48bbc27ea1.herokuapp.com">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Note-taker">GitHub Repo</Button>{' '}
           </Card.Body>
@@ -73,7 +73,7 @@ function Project(props) {
           <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="project-text">Weather Dashboard</Card.Title>
             <Card.Text className="project-text">
-              HTML/CSS/Bootstrap/JavaScript
+              Weather Dashboard for cities using server-side APIs
             </Card.Text>
             <Button variant="dark" href="https://wdverse.github.io/Weather-Dashboard/">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Weather-Dashboard">GitHub Repo</Button>{' '}
           </Card.Body>
@@ -86,14 +86,13 @@ function Project(props) {
           <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="project-text">Text Editor</Card.Title>
             <Card.Text className="project-text">
-              HTML/CSS/JavaScript/Node.js/Express.js
+              Installable JavaScript Code Editor built with Node.js
             </Card.Text>
             <Button variant="dark" href="https://edityourtexthere-d4cbb3200683.herokuapp.com">Live Link</Button> <Button variant="dark" href="https://github.com/WDverse/Text-Editor">GitHub Repo</Button>{' '}
           </Card.Body>
         </Card>
       </Col>
     </Row>
-
   );
 }
 

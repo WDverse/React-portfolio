@@ -102,3 +102,9 @@ body {
   font-size: 20px;
   line-height: 45px;
 }
+
+span{
+  color: #087F8C;
+  font-weight: bold;
+  font-size: 22px;
+}

@@ -13,7 +13,7 @@ function Contact(props) {
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Email address:</Form.Label>
-                    <Form.Control type="email" placeholder='Enter email'required/>
+                    <Form.Control type="email" placeholder='user@email.com'required/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                     <Form.Label>Message:</Form.Label>

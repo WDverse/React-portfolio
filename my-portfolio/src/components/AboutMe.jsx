@@ -21,10 +21,8 @@ function AboutMe(props) {
                 </Container>
                 <div className='about-body'>
                     <div>
-                        Hello there! I'm a passionate full stack web developer with a relentless curiosity for all things tech. Currently pursuing a Master of Applied Science degree in Technology Innovation Management at Carleton University, I thrive on creating seamless digital experiences and exploring innovative solutions.
-                        <div>With a strong foundation in both front-end and back-end development, I'm dedicated to pushing the boundaries of what's possible in the digital realm.</div>
-                        <div>Let's build the future together, one line of code at a time.</div>
-                        
+                        Hello there! I'm a full stack web developer with a relentless drive to create seamless web solutions. I'm enrolled in a Carleton University Web Development Bootcamp, where I have gained experience in <span>HTML, CSS, Bootstrap, JavaScript, React.Js, Node.Js and more</span>. In addition, through my ongoing graduate studies in Technology Innovation Management, I have aquired software project managemt skills and can work across diverse teams.
+                        <div>With a strong foundation in both front-end and back-end development, I'm dedicated to pushing the boundaries of what's possible as far as web development is concerned.</div>    
                     </div>
                 </div>
             </div>

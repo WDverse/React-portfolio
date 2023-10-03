@@ -11,11 +11,23 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+.download{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 1px;
+}
+.resume-link{
+text-decoration: none;
+background-color: #087F8C;
+border-radius: 3px;
+width: fit-content;
+color: white !important;
+}
 .resume-link:hover {
-  color: #087f8c !important;
+  background-color: #388d97 !important;
 }
 
 .resume-link:active {
-  color: #05b9cd !important;
+  background-color: #0596a6 !important;
 }
