@@ -12,7 +12,7 @@ function AboutMe(props) {
                 <Container>
                     <Row>
                     <div className="typewriter">
-                            <h1>I craft digital worlds, one code at a time.</h1>
+                            <h1>I create web experiences.</h1>
                         </div>
                         <Col xs={6} md={4}>
                             <Image src="https://wdverse.github.io/My-Portfolio/assets/images/emmanuel-appiagyei.jpeg" rounded width={180} />

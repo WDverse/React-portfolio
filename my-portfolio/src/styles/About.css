@@ -47,7 +47,8 @@ body {
 
 @media only screen and (max-width: 600px) {
   .typewriter h1 {
-    font-size: 20.3px;
+    font-size: 32px;
+    padding-left: 10px!important;
     width: 100%;
     white-space: nowrap;
     padding-left: 0px;
@@ -57,15 +58,15 @@ body {
 @media only screen and (min-width: 600px) {
   
   .typewriter h1 {
-    font-size: 22.5px;
+    font-size: 35px;
     width: 100%;
     white-space: nowrap;
-    padding-left: 0px;
+    padding-left: 10px;
   }
 }
 @media only screen and (min-width: 768px){
   .typewriter h1 {
-    font-size: 31px;
+    font-size: 49px;
     width: 100%;
     white-space: nowrap;
     padding-left: 0px;
@@ -74,18 +75,18 @@ body {
 
 @media only screen and (min-width: 992px){
   .typewriter h1 {
-    font-size: 42px;
+    font-size: 49px;
     padding-left: 600px;
     width: 100%;
     white-space: nowrap;
-    padding-left: 0px;
+    padding-left: 248px;
   }
 }
 
 @media only screen and (min-width: 1200px){
   .typewriter h1 {
-    font-size: 40px;
-    padding-left: 400px !important;
+    font-size: 55px;
+    padding-left: 490px !important;
     width: fit-content;
     white-space: nowrap;
     padding-left: 0px;
