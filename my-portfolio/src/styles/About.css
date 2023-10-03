@@ -9,15 +9,51 @@ body {
   margin-left: 7.5%;
   margin-bottom: 10px;
   line-height: 100px;
-  font-family: 'AR One Sans', sans-serif;
+  font-family: "AR One Sans", sans-serif;
   font-weight: bold;
+}
+.typewriter h1 {
+  /* display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: row !important; */
+  width: fit-content;
+  padding-left: 400px;
+  margin-top: 1000px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.1em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
 }
 
 .about-body {
   margin-left: 70px;
   margin-right: 70px;
   margin-top: 50px;
-  font-family: 'AR One Sans', sans-serif;
+  font-family: "AR One Sans", sans-serif;
   font-weight: bolder;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 45px;
 }

@@ -160,3 +160,5 @@ You are required to submit BOTH of the following for review:
 
 - - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+[Typewriter Effect](https://css-tricks.com/snippets/css/typewriter-effect/)
