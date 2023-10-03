@@ -17,8 +17,8 @@ body {
   flex-wrap: wrap !important;
   flex-direction: row !important; */
   width: fit-content;
-  padding-left: 400px;
   margin-top: 1000px;
+  padding-left: 400px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid black; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -45,6 +45,53 @@ body {
   }
   50% {
     border-color: black;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .typewriter h1 {
+    font-size: 20.3px;
+    width: 100%;
+    white-space: wrap;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  
+  .typewriter h1 {
+    font-size: 22.5px;
+    width: 100%;
+    white-space: nowrap;
+    padding-left: 0px;
+  }
+}
+@media only screen and (min-width: 768px){
+  .typewriter h1 {
+    font-size: 31px;
+    width: 100%;
+    white-space: nowrap;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .typewriter h1 {
+    font-size: 42px;
+    padding-left: 600px;
+    width: 100%;
+    white-space: nowrap;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .typewriter h1 {
+    font-size: 40px;
+    padding-left: 400px !important;
+    width: fit-content;
+    white-space: nowrap;
+    padding-left: 0px;
   }
 }
 
