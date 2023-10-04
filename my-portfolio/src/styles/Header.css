@@ -1,8 +1,11 @@
-.header{
-    color:black;
+/* Styling for elements with class "header" */
+.header {
+    color: black;
     font-family: 'AR One Sans', sans-serif;
     font-weight: bold;
 }
-.header-size{
-    padding: 0px!important;
+
+/* Styling for elements with class "header-size" */
+.header-size {
+    padding: 0px !important;
 }

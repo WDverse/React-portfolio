@@ -1,10 +1,14 @@
+/* Resetting the margin of the body element to 0px */
 body {
   margin: 0px !important;
 }
 
+/* Styling for elements with the 'about' class */
 .about {
   margin: auto;
 }
+
+/* Styling for elements with the 'about-me' class */
 .about-me {
   margin-left: 7.5%;
   margin-bottom: 10px;
@@ -12,16 +16,24 @@ body {
   font-family: "AR One Sans", sans-serif;
   font-weight: bold;
 }
+
+/* Styles for the 'typewriter' class */
 .typewriter h1 {
   width: fit-content;
   margin-top: 1000px;
   padding-left: 400px;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid black; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.1em; /* Adjust as needed */
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid black;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.1em;
+  /* Adjust as needed */
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  /* Defines animation properties */
 }
 
 /* The typing effect */
@@ -29,6 +41,7 @@ body {
   from {
     width: 0;
   }
+
   to {
     width: 100%;
   }
@@ -36,27 +49,30 @@ body {
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
+
   from,
   to {
     border-color: transparent;
   }
+
   50% {
     border-color: black;
   }
 }
 
+/* Media query for screens with a maximum width of 600px */
 @media only screen and (max-width: 600px) {
   .typewriter h1 {
     font-size: 32px;
-    padding-left: 10px!important;
+    padding-left: 10px !important;
     width: 100%;
     white-space: nowrap;
     padding-left: 0px;
   }
 }
 
+/* Media query for screens with a minimum width of 600px */
 @media only screen and (min-width: 600px) {
-  
   .typewriter h1 {
     font-size: 35px;
     width: 100%;
@@ -64,7 +80,9 @@ body {
     padding-left: 10px;
   }
 }
-@media only screen and (min-width: 768px){
+
+/* Media query for screens with a minimum width of 768px */
+@media only screen and (min-width: 768px) {
   .typewriter h1 {
     font-size: 49px;
     width: 100%;
@@ -73,7 +91,8 @@ body {
   }
 }
 
-@media only screen and (min-width: 992px){
+/* Media query for screens with a minimum width of 992px */
+@media only screen and (min-width: 992px) {
   .typewriter h1 {
     font-size: 49px;
     padding-left: 600px;
@@ -83,7 +102,8 @@ body {
   }
 }
 
-@media only screen and (min-width: 1200px){
+/* Media query for screens with a minimum width of 1200px */
+@media only screen and (min-width: 1200px) {
   .typewriter h1 {
     font-size: 55px;
     padding-left: 490px !important;
@@ -93,6 +113,7 @@ body {
   }
 }
 
+/* Styles for elements with the 'about-body' class */
 .about-body {
   margin-left: 70px;
   margin-right: 70px;
@@ -103,8 +124,9 @@ body {
   line-height: 45px;
 }
 
-span{
-  color: #087F8C;
+/* Styles for <span> elements */
+span {
+  color: #087f8c;
   font-weight: bold;
   font-size: 22px;
 }

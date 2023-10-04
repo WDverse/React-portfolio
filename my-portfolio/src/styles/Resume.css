@@ -1,33 +1,43 @@
+/* Styling for elements with class "text" */
 .text {
   color: black !important;
 }
 
+/* Styling for elements with class "resume" */
 .resume {
   margin-left: 20px !important;
 }
 
+/* Styling for elements with class "resume-title" */
 .resume-title {
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.download{
+
+/* Styling for elements with class "download" */
+.download {
   color: white;
   font-size: 20px;
   font-weight: bold;
   margin-right: 1px;
 }
-.resume-link{
-text-decoration: none;
-background-color: #087F8C;
-border-radius: 3px;
-width: fit-content;
-color: white !important;
-}
-.resume-link:hover {
-  background-color: #388d97 !important;
+
+/* Styling for elements with class "resume-link" */
+.resume-link {
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 3px;
+  width: fit-content;
+  color: white !important;
 }
 
+/* Styling for elements with class "resume-link" on hover */
+.resume-link:hover {
+  background-color: #3a3c3c !important;
+}
+
+/* Styling for elements with class "resume-link" on click */
 .resume-link:active {
-  background-color: #0596a6 !important;
+  background-color: #5d5e5e !important;
 }
