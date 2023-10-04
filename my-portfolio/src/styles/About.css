@@ -60,6 +60,17 @@ body {
   }
 }
 
+/* Media query for screens with a maximum width of 480px */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+  .typewriter h1 {
+    font-size: 22px !important;
+    padding-left: 10px !important;
+    width: 100%;
+    white-space: nowrap;
+    padding-left: 0px;
+  }
+}
+
 /* Media query for screens with a maximum width of 600px */
 @media only screen and (max-width: 600px) {
   .typewriter h1 {
