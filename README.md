@@ -1,5 +1,7 @@
 # My Portfolio
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 This application shows my portfolio. The application was built with React and contains some information about me, links to some of my works, and more.
@@ -48,7 +50,7 @@ Resume Section:
 
 ## License
 
-N/A
+This project is licensed under the [MIT](https://opensource.org/license/mit/) license.
 
 ## Credit
 
