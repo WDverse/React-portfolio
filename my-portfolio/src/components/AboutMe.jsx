@@ -36,7 +36,7 @@ function AboutMe() {
               HTML, CSS, Bootstrap, JavaScript, React.Js, Node.Js and more
             </span>
             . In addition, through my ongoing graduate studies in Technology
-            Innovation Management, I have aquired software project managemt
+            Innovation Management, I have aquired software project management
             skills and can work across diverse teams.
             <div>
               With a strong foundation in both front-end and back-end
