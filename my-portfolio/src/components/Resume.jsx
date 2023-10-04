@@ -11,7 +11,7 @@ function Resume() {
                 <p>
                     Download my{" "}
                     <a className="text resume-link" href="Appiagyei_resume.pdf" download>
-                        <span className="download">&#10515;</span>resume.
+                        resume<span className="download">&#10515;</span>
                     </a>
                 </p>
                 <h3>Frontend Proficiencies</h3>
