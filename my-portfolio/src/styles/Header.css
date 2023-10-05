@@ -1,11 +1,19 @@
+/* Styling for elements with class "header-container" */
+.header-container {
+    background-color: #087F8C !important;
+}
+
 /* Styling for elements with class "header" */
 .header {
+    display: flex;
+    justify-content: flex-start !important;
     color: black;
     font-family: 'AR One Sans', sans-serif;
     font-weight: bold;
 }
 
-/* Styling for elements with class "header-size" */
-.header-size {
-    padding: 0px !important;
+/* Styling for elements with class "navItems" */
+.navItems {
+    display: flex;
+    justify-content: flex-end !important;
 }

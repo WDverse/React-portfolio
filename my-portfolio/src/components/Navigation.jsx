@@ -6,7 +6,7 @@ import "../styles/Navigation.css";
 function Navigation({ pages, setCurrentPage, currentPage }) {
     return (
         // Navigation component using Bootstrap's Nav
-        <Nav variant="underline" className="justify-content-end" activeKey="/home">
+        <Nav variant="underline" activeKey="/home">
             <Nav.Item>
                 <Nav.Link
                     className="link"
@@ -35,7 +35,6 @@ function Navigation({ pages, setCurrentPage, currentPage }) {
                 >
                     Contact
                 </Nav.Link>
-                
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link

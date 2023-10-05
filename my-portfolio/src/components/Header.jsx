@@ -1,22 +1,23 @@
 // Importing necessary styles and components
-import Card from "react-bootstrap/Card";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
 import "../styles/Header.css";
 
 // Define a functional component called Header that takes 'props' as an argument
 function Header(props) {
   return (
-    <Card>
-
-      <Card.Header style={{ backgroundColor: "#087F8C" }}>
-
-        <Card.Body className="header-size">
-          <h1 className="header">Emmanuel Appiagyei</h1>
+    <Navbar expand="lg" className="header-container">
+      <Container>
+        <Navbar.Brand className="header" href="#home">
+          <h1>Emmanuel Appigayei</h1>
+        </Navbar.Brand>
+        <p></p>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse className="navItems" id="basic-navbar-nav">
           {props.children}
-        </Card.Body>
-        
-      </Card.Header>
-
-    </Card>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
