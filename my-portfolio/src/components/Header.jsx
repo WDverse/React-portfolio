@@ -9,7 +9,7 @@ function Header(props) {
     <Navbar expand="lg" className="header-container">
       <Container>
         <Navbar.Brand className="header" href="#home">
-          <h1>Emmanuel Appigayei</h1>
+          <h1>Emmanuel Appiagyei</h1>
         </Navbar.Brand>
         <p></p>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
