@@ -6,7 +6,7 @@ import "../styles/Contact.css";
 // Define a functional component called Contact
 function Contact() {
     return (
-        <div class="text" style={{ backgroundColor: "white" }}>
+        <div className="text" style={{ backgroundColor: "white" }}>
 
             <h2 className="contact">Contact</h2>
 
