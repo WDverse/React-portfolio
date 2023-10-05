@@ -15,12 +15,12 @@
   margin-bottom: 20px;
 }
 
-/* Styling for elements with class "bi" */
-.bi {
+/* Styling for elements with class "download" */
+.download {
   fill: white !important;
   font-size: 20px;
   font-weight: bold;
-  margin-left: 5px;
+  margin-left: 3px;
   margin-right: 3px;
 }
 
