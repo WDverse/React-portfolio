@@ -15,20 +15,21 @@
   margin-bottom: 20px;
 }
 
-/* Styling for elements with class "download" */
-.download {
-  color: white;
+/* Styling for elements with class "bi" */
+.bi {
+  fill: white !important;
   font-size: 20px;
   font-weight: bold;
   margin-left: 5px;
+  margin-right: 3px;
 }
 
 /* Styling for elements with class "resume-link" */
 .resume-link {
   text-decoration: none;
-  background-color: #000000;
+  background-color: black;
   border-radius: 3px;
-  width: fit-content;
+  width: max-content;
   color: white !important;
 }
 

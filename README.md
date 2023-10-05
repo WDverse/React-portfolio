@@ -78,6 +78,6 @@ Course material
 
 [Coolors](https://coolors.co/)
 
-[Down Arrow Bar HTML Code](https://www.toptal.com/designers/htmlarrows/arrows/down-arrow-to-bar/)
+[Bootstrap Icons](https://icons.getbootstrap.com/)
 
 [W3 Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
