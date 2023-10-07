@@ -81,3 +81,5 @@ Course material
 [Bootstrap Icons](https://icons.getbootstrap.com/)
 
 [W3 Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+
+[Google fonts](https://fonts.google.com/specimen/AR+One+Sans)
