@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.b3c15a87.css",
-    "main.js": "/React-portfolio/static/js/main.37833b6c.js",
+    "main.css": "/React-portfolio/static/css/main.cc3840b7.css",
+    "main.js": "/React-portfolio/static/js/main.b63b844a.js",
     "static/js/787.128fc6e9.chunk.js": "/React-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/tourist.png": "/React-portfolio/static/media/tourist.d18c03be12a22a04be81.png",
     "static/media/weather.png": "/React-portfolio/static/media/weather.c2d0f5749746a16ac974.png",
@@ -9,13 +9,14 @@
     "static/media/text.png": "/React-portfolio/static/media/text.9dffb86ad7241e405c47.png",
     "static/media/note.png": "/React-portfolio/static/media/note.c41a4a40672e1a54fce0.png",
     "static/media/quiz.png": "/React-portfolio/static/media/quiz.06c0b919281f071c6562.png",
+    "static/media/Appiagyei_resume.pdf": "/React-portfolio/static/media/Appiagyei_resume.768a7be606f51dad6500.pdf",
     "index.html": "/React-portfolio/index.html",
-    "main.b3c15a87.css.map": "/React-portfolio/static/css/main.b3c15a87.css.map",
-    "main.37833b6c.js.map": "/React-portfolio/static/js/main.37833b6c.js.map",
+    "main.cc3840b7.css.map": "/React-portfolio/static/css/main.cc3840b7.css.map",
+    "main.b63b844a.js.map": "/React-portfolio/static/js/main.b63b844a.js.map",
     "787.128fc6e9.chunk.js.map": "/React-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3c15a87.css",
-    "static/js/main.37833b6c.js"
+    "static/css/main.cc3840b7.css",
+    "static/js/main.b63b844a.js"
   ]
 }
