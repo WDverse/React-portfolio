@@ -11,7 +11,7 @@ function Resume() {
         <h2 className="resume-title">Resume</h2>
         <p>
           Download my{" "}
-          <a className="text resume-link" href={resume} download>
+          <a className="text resume-link" href={resume} download="Appiagyei_resume.pdf">
             resume
             <span className="download">
               <svg
