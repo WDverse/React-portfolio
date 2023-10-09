@@ -1,5 +1,6 @@
 // Importing the Resume component's stylesheet
 import "../styles/Resume.css";
+import resume from "../assets/files/Appiagyei_resume.pdf"
 
 // Define a functional component called Resume
 function Resume() {
@@ -10,7 +11,7 @@ function Resume() {
         <h2 className="resume-title">Resume</h2>
         <p>
           Download my{" "}
-          <a className="text resume-link" href="Appiagyei_resume.pdf" download>
+          <a className="text resume-link" href={resume} download>
             resume
             <span className="download">
               <svg
