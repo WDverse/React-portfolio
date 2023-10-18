@@ -1,0 +1,26 @@
+/* Styling for the footer element */
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 300px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+/* Styling for elements with class "bi" */
+.bi {
+  fill: black;
+  transition: all 0.5s;
+}
+
+/* Styling for elements with class "bi" on hover */
+.bi:hover {
+  fill: rgb(90, 90, 90);
+  transform: scale(1.2);
+}
+
+/* Styling for elements with class "bi" on click */
+.bi:active {
+  fill: rgb(118, 117, 117);
+}

@@ -1,0 +1,44 @@
+/* Styling for elements with class "text" */
+.text {
+  color: black !important;
+}
+
+/* Styling for elements with class "resume" */
+.resume {
+  margin-left: 20px !important;
+}
+
+/* Styling for elements with class "resume-title" */
+.resume-title {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styling for elements with class "download" */
+.download {
+  fill: white !important;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+/* Styling for elements with class "resume-link" */
+.resume-link {
+  text-decoration: none;
+  background-color: black;
+  border-radius: 3px;
+  width: max-content;
+  color: white !important;
+}
+
+/* Styling for elements with class "resume-link" on hover */
+.resume-link:hover {
+  background-color: #3a3c3c !important;
+}
+
+/* Styling for elements with class "resume-link" on click */
+.resume-link:active {
+  background-color: #5d5e5e !important;
+}
