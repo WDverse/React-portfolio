@@ -34,19 +34,19 @@ The following images shows the web application's appearance and functionality:
 
 About Me Section:
 
-![Screenshot of About Me Section](/my-portfolio/src/assets/images/about.png)
+![Screenshot of About Me Section](/src/assets/images/about.png)
 
 Portfolio Section:
 
-![Screenshot of Portfolio Section](/my-portfolio/src/assets/images/portfolio.png)
+![Screenshot of Portfolio Section](/src/assets/images/portfolio.png)
 
 Contact Section:
 
-![Screenshot of Contact Section](/my-portfolio/src/assets/images/contact.png)
+![Screenshot of Contact Section](/src/assets/images/contact.png)
 
 Resume Section:
 
-![Screenshot of Resume Section](/my-portfolio/src/assets/images/resume.png)
+![Screenshot of Resume Section](/src/assets/images/resume.png)
 
 ## License
 
