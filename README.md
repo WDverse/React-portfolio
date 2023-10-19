@@ -48,10 +48,6 @@ Resume Section:
 
 ![Screenshot of Resume Section](/src/assets/images/resume.png)
 
-## License
-
-This project is licensed under the [MIT](https://opensource.org/license/mit/) license.
-
 ## Credit
 
 AskBCS tutors
@@ -59,6 +55,10 @@ AskBCS tutors
 Dane Shrewsbury
 
 Added comments with the help of ChatGPT
+
+## License
+
+This project is licensed under the [MIT](https://opensource.org/license/mit/) license.  
 
 ## Tests
 
@@ -72,7 +72,7 @@ Here is the link to the web application:
 
 ## References
 
-Course material
+Bootcamp course material
 
 [Typewriter Effect](https://css-tricks.com/snippets/css/typewriter-effect/)
 
