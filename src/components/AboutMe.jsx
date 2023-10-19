@@ -29,19 +29,19 @@ function AboutMe() {
         <div className="about-body">
           <div>
             Hello there! I'm a full stack web developer with a relentless drive
-            to create seamless web solutions. I hold a certificate from Carleton
-            University's Web Development Bootcamp, where I gained experience
+            to create seamless web solutions. I hold a certificate in Full Stack
+            Web Development from Carleton University, where I gained experience
             in{" "}
             <span>
-              HTML, CSS, Bootstrap, JavaScript, React.Js, Node.Js and more
+              HTML, CSS, Bootstrap, JavaScript, React.Js, Node.Js, MongoDB, and more
             </span>
             . In addition, through my ongoing graduate studies in Technology
-            Innovation Management, I have acquired software project management
+            Innovation Management at Carleton University, I have acquired software project management
             skills and can work across diverse teams.
             <div>
-              With a strong foundation in both frontend and backend
-              development, I'm dedicated to pushing the boundaries of what's
-              possible as far as web development is concerned.
+              With a strong foundation in both frontend and backend development,
+              I'm dedicated to pushing the boundaries of what's possible as far
+              as web development is concerned.
             </div>
           </div>
         </div>
