@@ -12,9 +12,9 @@ This application shows my portfolio. The application was built with React and co
 
 - [Usage](#usage)
 
-- [License](#license)
-
 - [Credit](#credit)
+
+- [License](#license)
 
 - [Tests](#tests)
 
