@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 // Define the main App component
 function App() {
   // Define an array of page names
-  const [pages] = useState(["about", "portfolio", "contact", "resume"]);
+  const pages = ["about", "portfolio", "contact", "resume"];
 
   // Define a state variable to keep track of the current page
   const [currentPage, setCurrentPage] = useState(pages[0]);

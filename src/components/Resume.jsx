@@ -1,6 +1,6 @@
 // Importing the Resume component's stylesheet
 import "../styles/Resume.css";
-import resume from "../assets/files/Appiagyei_resume.pdf"
+import resume from "../assets/files/Appiagyei_Resume.pdf"
 
 // Define a functional component called Resume
 function Resume() {

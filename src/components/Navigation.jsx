@@ -2,8 +2,8 @@
 import Nav from "react-bootstrap/Nav";
 import "../styles/Navigation.css";
 
-// Define a functional component called Navigation that takes 'pages', 'setCurrentPage', and 'currentPage' as props
-function Navigation({ pages, setCurrentPage, currentPage }) {
+// Define a functional component called Navigation that takes  'setCurrentPage' as props
+function Navigation({ setCurrentPage }) {
     return (
         // Navigation component using Bootstrap's Nav
         <Nav variant="underline" activeKey="/home">
