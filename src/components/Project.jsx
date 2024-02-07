@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import "../styles/Project.css";
 import Button from "react-bootstrap/Button";
 import workDay from "../assets/images/workday.png";
-import quiz from "../assets/images/quiz.png";
+import smartBrain from "../assets/images/smart-brain.png";
 import tourist from "../assets/images/tourist.png";
 import noteTaker from "../assets/images/note.png";
 import cozySpaces from "../assets/images/cozy.png";
@@ -30,7 +30,7 @@ function Project() {
           <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="project-text">Workday Scheduler</Card.Title>
             <Card.Text className="project-text">
-              A simple calendar app built with HTML, CSS & jQuery
+              A calendar app built with HTML, CSS & jQuery
             </Card.Text>
             <Button
               variant="dark"
@@ -52,26 +52,26 @@ function Project() {
         <Card className="img">
           <Card.Img
             variant="top"
-            src={quiz}
-            alt="screenshot of the Code Quize Challenege web app showing a javascript question and possible answers"
+            src={smartBrain}
+            alt="screenshot of the Smart Brain web app showing the landing page"
             height={"270"}
           />
           <Card.Body style={{ backgroundColor: "#087F8C" }}>
             <Card.Title className="project-text">
-              Code Quiz Challenge
+              Smart Brain
             </Card.Title>
             <Card.Text className="project-text">
-              Code quiz app built with HTML, CSS & JavaScript
+            Emotion recognition app built with Node & a M.L API
             </Card.Text>
             <Button
               variant="dark"
-              href="https://wdverse.github.io/Code-Quiz-Challenge/"
-            >
+              href="https://brainiac-efa3264da22c.herokuapp.com/"
+              >
               Live Link
             </Button>{" "}
             <Button
               variant="dark"
-              href="https://github.com/WDverse/Code-Quiz-Challenge"
+              href="https://github.com/WDverse/smart-brain"
             >
               GitHub Repo
             </Button>{" "}
