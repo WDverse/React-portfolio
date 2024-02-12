@@ -18,10 +18,10 @@ function AboutMe() {
             </div>
             <Col xs={6} md={4}>
               <Image
-                src="https://wdverse.github.io/My-Portfolio/assets/images/emmanuel-appiagyei.jpeg"
+                src="https://avatars.githubusercontent.com/u/125585057?v=4"
                 alt="portrait of Emmanuel Appiagyei"
                 rounded
-                width={180}
+                width={'250'}
               />
             </Col>
           </Row>
