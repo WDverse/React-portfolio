@@ -23,12 +23,9 @@ h2 {
 .img {
   margin: 10px !important;
   border:  solid #000000;
- box-shadow: 0 0.5rem 1.2rem rgba(0,0,0,.2);
- transition: all 0.3s;
- ;
 }
 
 /* Styling for elements with class "img" on hover */
 .img:hover {
-  transform: scale(1.08);
+  box-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, 0.2);
 }
