@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.cc3840b7.css",
-    "main.js": "/React-portfolio/static/js/main.10499205.js",
+    "main.css": "/React-portfolio/static/css/main.dafcc7ac.css",
+    "main.js": "/React-portfolio/static/js/main.11a798ab.js",
     "static/js/787.128fc6e9.chunk.js": "/React-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/cozy.png": "/React-portfolio/static/media/cozy.e32674aebfe32c746a5a.png",
     "static/media/smart-brain.png": "/React-portfolio/static/media/smart-brain.c9ddf1b42b1dab4a9665.png",
@@ -9,14 +9,14 @@
     "static/media/weather.png": "/React-portfolio/static/media/weather.c2d0f5749746a16ac974.png",
     "static/media/workday.png": "/React-portfolio/static/media/workday.32c9217c48095fb60a65.png",
     "static/media/note.png": "/React-portfolio/static/media/note.c41a4a40672e1a54fce0.png",
-    "static/media/Appiagyei_Resume.pdf": "/React-portfolio/static/media/Appiagyei_Resume.4b319ec1554791a3ddef.pdf",
+    "static/media/Appiagyei_resume.pdf": "/React-portfolio/static/media/Appiagyei_resume.2b6a5673469117c76e3d.pdf",
     "index.html": "/React-portfolio/index.html",
-    "main.cc3840b7.css.map": "/React-portfolio/static/css/main.cc3840b7.css.map",
-    "main.10499205.js.map": "/React-portfolio/static/js/main.10499205.js.map",
+    "main.dafcc7ac.css.map": "/React-portfolio/static/css/main.dafcc7ac.css.map",
+    "main.11a798ab.js.map": "/React-portfolio/static/js/main.11a798ab.js.map",
     "787.128fc6e9.chunk.js.map": "/React-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc3840b7.css",
-    "static/js/main.10499205.js"
+    "static/css/main.dafcc7ac.css",
+    "static/js/main.11a798ab.js"
   ]
 }
